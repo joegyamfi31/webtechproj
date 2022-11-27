@@ -1,0 +1,111 @@
+div
+{
+    height:800px;
+    width:800px;
+    background:lightblue;
+    margin:30px auto;
+    padding:10px;
+    text-align:center;
+    border:2px solid blue;
+    border-radius:20px;
+}
+
+body
+{
+    background:grey;
+}
+
+table, th, td {
+    border:none;
+  }
+
+input
+{
+    height:30px;
+    margin:10px;
+}
+
+#sltarea
+{
+    width: 170px;
+    height: 35px;
+    /*margin: 5px 20px 10px 60px;*/
+}
+
+#inputmsg
+{
+    width: 400px;
+    height:60px;
+    /*margin: 10px 20px 10px 5px;*/ 
+}
+
+h2
+{
+    text-decoration: underline;
+    color:blue;
+}
+
+.required:after 
+{
+    content:" *";
+    color: red;
+}
+
+h3
+{
+    font-style: italic;
+    font-weight:bold;
+    padding: 0px 5px;
+    margin: 0px;
+    color: red;
+}
+p.toptext
+{
+    text-align: left;
+    /*font-weight:bold;*/
+    margin: 15px;
+}
+
+p.gentext
+{
+    font-style: italic;
+    margin: 0px 15px;
+    text-align: left;
+    /*font-weight:bold;*/
+}
+
+#custom-select1
+{
+    height: 36px;
+    width: 176px;
+    margin: 0px 10px;   
+}
+
+#custom-select2
+{
+    height: 35px;
+    width: 180px;
+    margin: 0px 20px;   
+}
+
+#toSubmit
+{
+    background:green;
+    color:white;
+    font-weight:bold;
+    width: 130px;
+    border-radius:5px;
+}
+#toReset
+{
+    background:crimson;
+    color:white;
+    font-weight:bold;
+    width: 125px;
+    border-radius:5px;
+}
+
+#span-ct
+{
+    color: red;
+}

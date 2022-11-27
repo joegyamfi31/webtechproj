@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <!--Developed by Joseph Gyamfi
+    Purpose of page is to provide opportunities to my clients and visitors of my page
+    how they can contact me with their concerns and also give me feedback -->
+<head>
+<title>Contact Me Page</title>
+<link rel="stylesheet" href="contact-me.css">
+<script src="contact.js"></script>
+
+</head>
+<body>
+    <div>
+        <form onsubmit="return false">
+            <legend><h2>Support & Feedback Form</h2></legend>
+            <h3>With ITSC, you're in good hands</h3>
+            <p class="toptext">I'd be glad to hear from you. Your feedback drives me to do what I do best, that is serving my clients and customers.</p>
+                Use this form to give me feedback or let me know your concerns or issues. I'll respond within 2 business days if a response is needed. 
+            <b>For quicker response, you may reach me by the email address or phone number at the bottom of the page.</b></p>
+
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <input type="text" id="fullname" placeholder="Enter Your Name"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="email" id="emailaddr" placeholder="Email Address"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="phone" id="phnumber" placeholder="Phone Number"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Select area of interest or concern</b><br>
+                        <select id="sltarea">
+                            <option>---</option>
+                            <option>IT Consulting</option>
+                            <option>Big Data & Data Analytics</option>
+                        </select>
+                        
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <b>Please type brief message in this box:</b><br>
+                    <textarea id="msgdata" rows="6" cols="40"></textarea>
+                    <!--<input id="inputmsg" type="text" name="message" placeholder="Type message here"/>-->
+                </td>
+            </tr>
+
+        </table>
+
+        <input type="submit" value="Submit Form" onclick="subForm()" id="toSubmit"/>
+        <input type="reset" value="Reset Form" id="toReset"/>
+
+        </form>
+    
+        <h2 id="output"></h2><!-- Display a message -->
+        <hr size="3" color="blue">
+
+        <br><p><h3>Contact Information:</h3></p>
+        <h4><span id="span-ct">Address:</span> 20 ITSC Rd, Brampton, L7A 3V1 | <span id="span-ct">Email:</span> info@itsc.ca | <span id="span-ct">Tel :</span> 416-000-0000 | <span id="span-ct">Home:</span> <a href="index.html">www.itsc.ca</a></h4>
+
+    </div>
+</body>
+</html>

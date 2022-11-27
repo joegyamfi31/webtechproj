@@ -1,0 +1,66 @@
+.bodym{
+    background-image: url("index.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+    height:100%;
+}
+#header
+{
+	height:18%;
+	width:100%;
+    background: black;
+	border-collapse:collapse;
+	border:1px solid red;
+}
+.topcontact
+{
+	text-align: center;
+	text-decoration:underline;
+}
+#logo
+{
+	width:20%;
+    padding:1%;
+	vertical-align:middle;
+    text-align: center;
+}
+#midheader
+{
+	width:60%;
+}
+#login
+{
+	width: 20%;
+    color:white;
+	font-size:16px;
+	font-weight:bold;
+    padding-top:2%;
+}
+a
+{
+	color:white;
+}
+#spid
+{
+	font-weight:bold ;
+}
+#spid2
+{
+	float: right;
+	/*text-align: center;*/
+}
+#footer
+{
+	height:5%;
+	width:100%;
+    background:rgb(82, 65, 65);
+	color:white;
+    text-align: center;
+}
+#ft-cols
+{
+	background: rgb(176, 211, 176);
+	
+}
+
